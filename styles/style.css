@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding:0;
+   
+}
+#main{
+    font-family: 'Roboto', 'Segoe UI', Tahoma,  Verdana, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.74);
+    background: rgba(151, 158, 158, 0.164);
+    margin: 15px 20px;
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+#title{
+    font-size: 2.5em;
+}
+#img-div{
+    background: #fff;
+    padding-top: 20px;
+}
+
+#image{
+    max-width: 90%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+#img-caption{
+    font-size: 0.8em;
+    padding:10px ;
+}
+#tribute-info h3{
+    padding: 30px 0;
+}
+ul{
+    width: 60%;
+    margin: 0 auto;
+}
+li {
+    text-align: justify;
+    margin: 16px 0;
+  }
+  blockquote{
+      text-align: center;
+      line-height: 1.5;
+      margin: 0 auto;
+      padding: 30px;
+      width: 90%;
+  }
+  @media (max-width: 460px) {
+    #title {
+        font-size: 1.3rem;
+    }
+    #img-caption{
+        font-size: 0.7em;
+    }
+    #tribute-info{
+        width: 90%;
+        font-size: 14px;
+    }
+    ul{
+        width: 90%;
+       
+    }
+    #main{
+       margin: 0;
+    }
+   h3{
+       margin-left: 20px;
+       font-size:14px ;
+   }
+   #image {
+    height: 50%;
+    width: 90%;
+  }
+  }
+ 
